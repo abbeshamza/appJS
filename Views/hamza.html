@@ -1,0 +1,19 @@
+
+<div ng-init="name='hh'" ng-cloak>
+ 
+Name <input type="text" ng-model="name">
+<br>
+
+Hide <input type="checkbox" ng-model="isHidden">
+
+<div ng-hide="isHidden">
+  {{name}}
+  {{9.111541 | currency}} <br>
+  {{2012-05-28|date}}
+</div>
+
+<button ng-click="name='you got me'">hit me</button>
+</div>
+<div ng-controller="testCTRL">
+  {{name}}  <h1>{{fac}}</h1>
+</div>
