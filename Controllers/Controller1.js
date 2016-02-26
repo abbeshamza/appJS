@@ -19,7 +19,7 @@
 			firstFactory.getFactory()
 			.success(function(res)
 			{
-				$scope.fac= res.name ;
+				$scope.fac= res;
 
 			})
 			.error(function(data , status , headers, config ){
